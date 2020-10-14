@@ -1,0 +1,20 @@
+if (pm.request.method == "GET") {
+    pm.test("Status code is 200", function () {
+        pm.response.to.have.status(200);
+    });
+
+}
+
+if (pm.request.method == "Post") {
+
+    pm.test("Status code is 200", function () {
+        pm.response.to.have.status(200);
+    });
+}
+
+if (pm.request.method == "Put") {
+
+    pm.test("Status code is 200", function () {
+        pm.response.to.have.status(200);
+    });
+}
